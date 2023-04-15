@@ -1,0 +1,34 @@
+Project: Roll the Dice
+
+- In this project, you will create a simple dice game where the user can roll two dice and see the total sum of their values. 
+- The user should be able to click a button to roll the dice, and the dice should display a random value between 1 and 6 each time they are rolled. 
+  The sum of the two dice should be displayed below the dice.
+
+Here are some steps to follow to implement this project:
+
+Step 1: Set up the HTML structure
+
+Create an HTML file with a basic structure that includes a header, a main section, and a footer. 
+Inside the main section, create a container for the dice and a button to roll them. Add some basic styles using CSS to make the page look presentable.
+
+Step 2: Create the dice
+
+Using HTML and CSS, create two dice that are positioned side by side in the container. Each dice should have six sides,
+each displaying a number from 1 to 6. You can use images or CSS to create the dice faces. Add a label or a legend to display the sum of the dice values.
+
+Step 3: Add the JavaScript logic
+
+Using JavaScript, add a click event listener to the button that rolls the dice. When the button is clicked, generate two random numbers between 1 and 6,
+one for each dice. Update the dice faces to display the corresponding numbers. Calculate the sum of the dice values and display it in the label or legend.
+
+Step 4: Test and refine
+
+Test the game thoroughly by rolling the dice multiple times and verifying that the values and the sum are generated correctly. 
+Refine the code and the styles as needed to improve the user experience.
+
+Step 5: Optional enhancements
+
+Once you have implemented the basic version of the game, you can add additional features to make it more interesting or challenging. 
+For example, you could add a timer that limits the time for each roll, or you could add a betting system that 
+lets the user wager on the outcome of each roll. You could also add animations or sound effects to make the game more engaging.
+
